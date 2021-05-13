@@ -1,7 +1,0 @@
-@import url(__container/checkbox__container.css);
-
-.checkbox{
-    display: flex;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
