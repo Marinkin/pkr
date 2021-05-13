@@ -1,0 +1,12 @@
+.button {
+    background-color: #4a8dd7;
+}
+
+@media screen and (max-width: 540px) {
+    .button {
+        margin-top: 20px;
+        width: 60%;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+}

@@ -5,3 +5,17 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+
+@media screen and (max-width: 770px) {
+    .checkbox {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .checkbox {
+        flex-direction: column;
+        align-items: center;
+    }
+}

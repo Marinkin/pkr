@@ -1,8 +1,7 @@
 .description__list{
     list-style-type: none;
-    width: 50%;
-    float: right;
-    padding-top: 85px;
+    width: 90%;
+    text-align: left;
 }
 .description__list li::before {
     content: "\2022";
@@ -11,3 +10,11 @@
     display: inline-block;
     width: 1em;
 }
+@media screen and (max-width: 540px) {
+    .description__list {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+

@@ -5,3 +5,22 @@
     margin-top: 20px;
     color: #4a8dd7;
 }
+
+@media screen and (max-width: 920px) {
+    .table__heading {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .table__text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .table__text {
+        font-size: 10px;
+    }
+}

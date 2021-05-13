@@ -1,0 +1,16 @@
+.section_narrow{
+    max-width: calc(100% - 15px*2);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .section_narrow {
+        max-width: calc(100% - 48px * 2);
+    }
+}
+
+@media screen and (max-width: 770px){
+   .section_narrow{
+       max-width: calc(100% - 20px*2);
+   }
+}

@@ -1,4 +1,6 @@
 @import "bootstrap.min.css";
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/select/select.css);
 @import url(../blocks/table/table.css);
@@ -6,6 +8,9 @@
 @import url(../blocks/input/input.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/forms/forms.css);
+@import url(../blocks/button/button.css);
 
 
 .label-form {
@@ -19,6 +24,19 @@
     text-align: center;
 }
 
-.button {
-    background-color: #4a8dd7;
+@media screen and (max-width: 920px) {
+    .title__forms {
+        font-size: 20px;
+    }
 }
+
+
+@media screen and (max-width: 920px) {
+    label {
+        font-size: 10px;
+    }
+}
+
+
+
+

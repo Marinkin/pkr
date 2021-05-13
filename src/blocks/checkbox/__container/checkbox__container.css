@@ -1,4 +1,11 @@
 .checkbox__container {
     display: flex;
     width: 78%;
+    max-width: 78%;
+}
+
+@media screen and (max-width: 920px) {
+    .checkbox__container {
+        width: 72%;
+    }
 }

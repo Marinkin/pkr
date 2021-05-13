@@ -3,3 +3,10 @@
     width: 100%;
     padding: 0;
 }
+
+@media screen and (max-width: 540px) {
+    .select__container {
+        width:87%;
+
+    }
+}

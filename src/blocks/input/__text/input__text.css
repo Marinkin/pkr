@@ -1,0 +1,12 @@
+@media screen and (max-width: 770px) {
+    .form-control.input__accent {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .input__text.input-group-text {
+        width: 75%;
+    }
+}
+

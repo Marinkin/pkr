@@ -6,3 +6,17 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 770px) {
+    .select__form {
+        width: 72%;
+
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .select__form {
+        flex-direction: column;
+
+    }
+}

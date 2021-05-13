@@ -3,3 +3,9 @@
     width: 100%;
     max-width: 100%;
 }
+
+@media screen and (max-width: 770px) {
+    .input__item {
+        width: 90%;
+    }
+}

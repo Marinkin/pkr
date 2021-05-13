@@ -1,0 +1,8 @@
+@media screen and (max-width: 540px) {
+    .forms {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+}
