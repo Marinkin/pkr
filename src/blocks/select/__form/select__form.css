@@ -1,0 +1,8 @@
+.select__form {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 73%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

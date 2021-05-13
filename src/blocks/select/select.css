@@ -1,0 +1,10 @@
+@import url(__form/select__form.css);
+@import url(__container/select__container.css);
+@import url(__box/select__box.css);
+
+.select {
+    width: 50%;
+    height: 36px;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+}

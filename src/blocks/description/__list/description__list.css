@@ -1,0 +1,13 @@
+.description__list{
+    list-style-type: none;
+    width: 50%;
+    float: right;
+    padding-top: 85px;
+}
+.description__list li::before {
+    content: "\2022";
+    color: #4a8dd7;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}

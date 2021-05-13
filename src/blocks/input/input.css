@@ -1,0 +1,11 @@
+@import url(__box/input__box.css);
+@import url(__item/input__item.css);
+
+.input-text {
+    padding: 5px 60px 5px 30px;
+    background-color: #bfd6f2;
+}
+
+.input-1{
+    margin-left: 20px;
+}

@@ -1,0 +1,7 @@
+@import url(__title/description__title.css);
+@import url(__list/description__list.css);
+
+
+.description {
+    color: gray;
+}
